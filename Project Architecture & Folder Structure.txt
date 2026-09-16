@@ -1,0 +1,76 @@
+iet_sports_club/
+│
+├── manage.py
+├── requirements.txt
+├── README.md
+│
+├── config/
+│   ├── __init__.py
+│   ├── settings.py
+│   ├── urls.py
+│   ├── asgi.py
+│   └── wsgi.py
+│
+├── core/                       # Core functionality & Main navigation
+│   ├── models.py
+│   ├── views.py
+│   ├── urls.py
+│   ├── forms.py
+│   └── admin.py
+│
+├── accounts/                   # Authentication & Profiles
+│   ├── models.py
+│   ├── views.py
+│   ├── urls.py
+│   └── admin.py
+│
+├── sports/                     # Sports, Teams & Players
+│   ├── models.py
+│   ├── views.py
+│   ├── urls.py
+│   └── admin.py
+│
+├── events/                     # Events & Registrations
+│   ├── models.py
+│   ├── views.py
+│   ├── urls.py
+│   └── admin.py
+│
+├── matches/                    # Matches, Live Scores & Leaderboards
+│   ├── models.py
+│   ├── views.py
+│   ├── urls.py
+│   └── admin.py
+│
+├── dashboard/                  # Student & Admin Analytics
+│   ├── views.py
+│   └── urls.py
+│
+├── templates/
+│   ├── base.html
+│   ├── home.html
+│   ├── about.html
+│   ├── sports/
+│   │   ├── list.html
+│   │   └── detail.html
+│   ├── events/
+│   │   ├── list.html
+│   │   └── detail.html
+│   ├── matches/
+│   │   ├── list.html
+│   │   └── live.html
+│   ├── gallery.html
+│   ├── announcements.html
+│   ├── contact.html
+│   ├── accounts/
+│   │   ├── login.html
+│   │   └── register.html
+│   └── dashboard/
+│       ├── student.html
+│       └── admin.html
+│
+└── static/
+    ├── css/
+    │   └── style.css
+    └── js/
+        └── main.js
